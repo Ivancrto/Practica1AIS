@@ -1,0 +1,324 @@
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lato Regular'), local('Lato-Regular'), url(Lato.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+		U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Quicksand'), local('Quicksand'), url(Quicksand.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+		U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+::selection {
+	background: transparent;
+}
+
+body {
+	font-family: Quicksand, san-serif;
+}
+
+.indexB {
+	background-image: url("../img/fondoEstrellado.jpg");
+}
+
+.statsB {
+	background-image:
+		url("https://imgs.michaels.com/MAM/assets/1/5E3C12034D34434F8A9BAAFDDF0F8E1B/img/0422800EB509486A9878BD178BF60AC3/D228614S_4.jpg?fit=inside|540:540");
+}
+
+.loginB {
+	background-image:
+		url("https://images.alphacoders.com/107/thumb-1920-107763.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+}
+
+.bgWhite {
+	background: #F5F2F5;
+}
+
+.colorWhite {
+	color: #F5F2F5 !important;
+}
+
+.bgDark {
+	background: #516D66;
+}
+
+.colorDark {
+	color: #ffff00;
+}
+
+.bgRed {
+	background: #F286A0;
+}
+
+.colorRed {
+	color: #F286A0 !important;
+}
+
+.gameBoard, .scoreBoard {
+	font-weight: 400;
+}
+
+.gameBoard {
+	width: 100%;
+}
+
+.gameBoard td {
+	text-align: center;
+	color: #516D66;
+	font-size: 8em;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.gameCell {
+	width: 181px;
+	height: 181px;
+}
+
+.gameCell:not (.marked ):hover {
+	box-shadow: 0 0 42px #555;
+}
+
+.gameBoard td.gameCell.notActive:hover, .gameBoard td.gameCell.notActive:active
+	{
+	box-shadow: none !important;
+	cursor: default;
+}
+
+.scoreBoard {
+	color: #516D66;
+	height: 100px;
+}
+
+.boardCol {
+	width: 5px;
+	cursor: default !important;
+}
+
+.boardRow {
+	height: 5px;
+	cursor: default !important;
+}
+
+.scoreBoard span.active {
+	border-bottom: 4px solid #F286A0;
+}
+
+#inicio {
+	margin-left: 80px;
+}
+
+/************************************ Chat Styles and Star Wars *************************************/
+.divAsChat {
+	overflow: auto;
+	background-color: #ffffff;
+	width: 800px;
+	height: 400px;
+	font-weight: 300;
+	border-radius: 20px;
+	border: 5px solid #ba68c8;
+	box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+	resize: none;
+	padding-right: 20px;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 35px;
+	margin-top: 5px;
+}
+
+.divAsChatInIndex {
+	overflow: auto;
+	background-color: #e9e9e9;
+	width: 450px;
+	height: 400px;
+	font-weight: 300;
+	border-radius: 20px;
+	border: 5px solid #ba68c8;
+	box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+	resize: none;
+	padding-right: 20px;
+	text-align: left;
+	margin-bottom: 35px;
+	margin-top: 5px;
+}
+
+.scrollbar-secondary::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+.scrollbar-secondary::-webkit-scrollbar {
+	width: 12px;
+	background-color: transparent;
+}
+
+.scrollbar-secondary::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-color: #ba68c8;
+}
+
+.scrollbar-secondary {
+	scrollbar-color: #ba68c8 transparent;
+}
+
+.charHR {
+	height: 2px;
+	border: 0;
+	color: #666;
+	background-color: #b300b3;
+}
+
+.chatUserName {
+	padding-left: 20px;
+	color: white;
+	background-color: #0080ff;
+	opacity: 0.5;
+	font-weight: bold;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.chatMessage {
+	padding-left: 70px;
+	font-size: large;
+}
+
+.name {
+	height: auto;
+	margin-bottom: 100px;
+	font-size: 14px;
+	border-radius: 100px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.message {
+	height: auto;
+	margin-bottom: 100px;
+	font-size: 14px;
+	border-radius: 100px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.custom-margin {
+	margin-bottom: 30px;
+	padding-top: 20px;
+}
+
+.button-margin {
+	padding-bottom: 20px;
+}
+
+.table-margin {
+	margin-left: 25px;
+}
+
+table.table-bordered {
+	border: 1px solid blue;
+	margin-top: 20px;
+}
+
+table.table-bordered>thead>tr>th {
+	border: 1px solid blue;
+}
+
+table.table-bordered>tbody>tr>td {
+	border: 1px solid blue;
+}
+
+.chat-header {
+	padding-top: 100px;
+}
+
+.chatBlock {
+	float: left;
+}
+
+.diagrama {
+	float: right;
+	background-color: aqua;
+	width: 450px;
+	height: 400px;
+}
+
+.btn-starWars {
+	color: #020202;
+	background-color: #80ff00;
+	border-color: #ffffff;
+	box-shadow: 0 0 10px #80ff00;
+	border-radius: 20px;
+}
+
+.btn-starWarsChat {
+	color: #fff;
+	background-color: #be00d9;
+	border-color: #fafafa;
+}
+
+.btn-starWarsSable {
+	align-content: auto;
+	border-radius: 20px;
+	background: #004080;
+	width: 300px;
+	height: 40px;
+	margin-left: 3%;
+	margin-bottom: 35px;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: large;
+	color: white;
+}
+
+.grow:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	border: 10px solid #6cb6ff;
+	box-shadow: 0 0 10px #9dceff;
+	background: #ffffff;
+	opacity: inherit;
+	color: rgba(0, 0, 0, 0);
+}
+
+.mango {
+	transform: rotate(90deg);
+	margin-bottom: 35px;
+	margin-left: -15px;
+	width: 200px;
+	height: 210px;
+}
+
+/************************************ Login *************************************/
+.info {
+	color: yellow;
+	font-style: bold;
+}
+
+.padtop {
+	padding-top: 80px;
+}
+
+.padtop2 {
+	padding-top: 20px;
+}
+
+.pointer {
+	cursor: pointer;
+}

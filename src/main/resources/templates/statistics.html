@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TicTacToe-Ranking</title>
+
+<link href="http://allfont.es/allfont.css?fonts=star-jedi"
+	rel="stylesheet" type="text/css" />
+
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/howler.core.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/score.js"></script>
+<script src="/js/chat.js"></script>
+<script src="/js/lasersaber.js"></script>
+
+</head>
+
+<body class="statsB">
+	<div class="custom-margin completeSable" id="inicio" onclick="inicio()">
+		<button type="button" class="btn btn-starWarsSable grow"
+			onmouseover="play()" onmouseout="stop()">Next Match</button>
+		<img
+			src="https://codeorum.com/images/article_images/300/20190328T135948_300.png"
+			class="mango">
+	</div>
+	<div class="animacion"></div>
+
+	<div class="row mx-auto">
+
+		<div class="col-md-12 text-center">
+			<h1 class="colorDark" style="font-family: Impact;">Ranking</h1>
+		</div>
+
+	</div>
+
+	<hr>
+	<table id="tableScoreSort"
+		class="table table-hover table-bordered text-center w-75 mx-auto"
+		style="background-color: white">
+		<thead class="bg-info">
+			<tr>
+				<th scope="col">Users</th>
+
+				<th scope="col">
+					<button type="button" onclick="sortTable(1)"
+						class="btn btn-primary">Wins</button>
+				</th>
+
+				<th scope="col">
+					<button type="button" onclick="sortTable(2)"
+						class="btn btn-primary">Defeats</button>
+				</th>
+
+				<th scope="col">
+					<button type="button" onclick="sortTable(3)"
+						class="btn btn-primary">Draws</button>
+				</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{{#WinsPlayer}}
+			<tr>
+				<td><b>{{playername}}</b></td>
+				<td>{{wins}}</td>
+				<td>{{defeats}}</td>
+				<td>{{draws}}</td>
+
+			</tr>
+			{{/WinsPlayer}}
+		</tbody>
+	</table>
+
+	<div class="row chat-header">
+
+		<div class="col-md-12 text-center">
+			<h2 class="h2chat mx-auto colorDark" style="font-family: Impact;">TicTacToe-CHAT</h2>
+		</div>
+
+	</div>
+
+	<hr>
+
+	<div class="row">
+
+		<div class="col-md-12 text-center">
+
+			<div id="espacioChat" class="divAsChat scrollbar-secondary"></div>
+
+
+			<form id="aparecer" action="javascript:addO();">
+				<label for="mensaje"><b>Message:</b></label><input class="name"
+					type="text" name="mensaje" id="mensaje"> <input
+					class="btn btn-starWarsChat" value="Commit" type="submit" /> <input
+					class="name" type="text" name="nombre" value="{{nickname}}"
+					id="nombre" style="display: none" readonly>
+			</form>
+
+		</div>
+	</div>
+
+</body>
+
+</html>

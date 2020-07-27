@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TicTacToe</title>
+
+
+<link href="http://allfont.es/allfont.css?fonts=star-jedi"
+	rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript"
+	src="https://www.gstatic.com/charts/loader.js"></script>
+
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/howler.core.js"></script>
+<script src="/js/grafico.js"></script>
+<script src="/js/chat.js"></script>
+<script src="/js/playAnimation.js"></script>
+
+</head>
+
+<body class="indexB">
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-3 col-sm-offset-3 scoreBoard">
+				<h1>
+					<span id="p1Score"></span>
+				</h1>
+			</div>
+
+			<div class="col-sm-3 scoreBoard">
+				<h1 class="text-right">
+					<span id="p2Score"></span>
+				</h1>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3" id="gameBoard"></div>
+		</div>
+
+		<div id="joinForm">
+
+			<div class="row">
+				<div class="col-sm-6 mx-auto" id="gameBoard"></div>
+			</div>
+
+			<div class="row" id="joinForm">
+				<form action="/">
+					<input class="btn btn-default" type="submit" value="Log Out" />
+				</form>
+				<h1 class="text-center colorDark" style="font-family: Impact;">WELCOME
+					TO TIC TAC TOE</h1>
+				<hr>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="chatBlock">
+						<div id="espacioChat" class="divAsChatInIndex scrollbar-secondary"></div>
+						<form id="aparecer" action="javascript:addO();">
+							<div class="text-center">
+								<label class="mensajeInIndex" for="mensaje"><b>Message:</b></label>
+								<input class="name" type="text" name="mensaje" id="mensaje">
+								<input class="btn btn-starWarsChat" value="Commit" type="submit" />
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-md-4 text-center">
+					<button class="btn btn-lg btn-starWars" id="startBtn"
+						onmouseover="mostrar()" onmouseout="ocultar()">
+						PLAY!<img id="animacion" class="center"
+							src="https://media3.giphy.com/media/KAFyE31UznAEaru7de/source.gif"
+							width="80" height="80" style="display: none">
+					</button>
+				</div>
+
+				<div class="col-md-4">
+					<div class="diagrama" id="piechart">
+						<input class="name" type="text" name="w" value="{{ganadas}}"
+							id="w" style="display: none" readonly> <input
+							class="name" type="text" name="l" value="{{perdidas}}" id="l"
+							style="display: none" readonly> <input class="name"
+							type="text" name="d" value="{{empatadas}}" id="d"
+							style="display: none" readonly>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="/js/Board.js"></script>
+	<script src="/js/app.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TicTacToe</title>
+
+
+<link href="http://allfont.es/allfont.css?fonts=star-jedi"
+	rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="/js/login.js"></script>
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body class="loginB">
+
+	<div class="sign_in">
+
+		<div class="row text-white text-center padtop">
+			<h1 class="info">Tic Tac Toe</h1>
+			<h3 class="info">Log In</h3>
+		</div>
+
+		<div class="row padtop">
+
+			<div class="col-md-4 col-md-offset-4">
+
+				<label class="info padtop2" for="username">User</label> <input
+					class="form-control" name="username" id="username" type="text" />
+				<label class="info padtop2" for="password">Password</label> <input
+					class="form-control" name="password" id="password" type="password" />
+				<br>
+				<div class="text-right">
+
+					<input type="button" class="btn btn-default"
+						onclick="iniciarUser()" value="Log In" />
+				</div>
+
+				<div class="text-right">
+					<a class="pointer" data-toggle="modal" data-target="#myModal">Register!</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"></button>
+					<h4 class="modal-title text-center">Register</h4>
+				</div>
+
+				<div class="container">
+					<div class="row align-middle">
+						<div class="col-md-4 col-md-offset-1">
+							<div class="modal-body">
+								<div class="form-group">
+									<p>
+										User <input name="usernameR" class="form-control"
+											id="usernameR" type="text" />
+									</p>
+									<p>
+										Password <input name="passwordR" class="form-control"
+											id="passwordR" type="password" />
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" onclick="addUser()">Accept</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
+

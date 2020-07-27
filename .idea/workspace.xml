@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d62362a1-6eec-4a78-be65-7cc7c1d844c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/codeurjc/ais/tictactoe/StatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/codeurjc/ais/tictactoe/StatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/ChatBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/ChatBD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/ChatRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/ChatRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/PlayerScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/PlayerScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/StatisticsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/StatisticsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/StatisticsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/StatisticsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$CellMarkedValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$CellMarkedValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$EventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$EventType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$WinnerResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$WinnerResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$WinnerValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame$WinnerValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$ClientToServerAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$ClientToServerAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$ClientToServerMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$ClientToServerMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$ServerToClientMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler$ServerToClientMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/TicTacToeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/WebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/codeurjc/ais/tictactoe/WebApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/grafico.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/grafico.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1am3I8Vf2xJoi7jkCM1DQItX9JK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="R:\Desktop\20A04\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\X\projectAIS\20A04\src\main\resources\static\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WebApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.codeurjc.ais.tictactoe.WebApp" />
+      <module name="20A04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.codeurjc.ais.tictactoe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WebApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d62362a1-6eec-4a78-be65-7cc7c1d844c2" name="Default Changelist" comment="" />
+      <created>1585665803403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585665803403</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Sign in, Sign up do">
+      <created>1587409104876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587409104877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Grafica arreglada">
+      <created>1587593212407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587593212408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sign in, Sign up do" />
+    <MESSAGE value="Grafica arreglada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grafica arreglada" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="485" y="76" key="#WebApp" timestamp="1587327085245">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="485" y="76" key="#WebApp/0.0.1536.834@0.0.1536.834" timestamp="1587327085245" />
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1587332789455">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1587332789455" />
+    <state x="618" y="306" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587326943630">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="618" y="306" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1587326943630" />
+    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1587593210428">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587593210428" />
+    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1587593716161">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="133" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1587411304012" />
+    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587593716161" />
+    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1587593716161">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="133" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1587411304012" />
+    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587593716161" />
+    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1587593716161">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="133" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1587411304012" />
+    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587593716161" />
+    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1587593716161">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="133" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1587411304012" />
+    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587593716161" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1587499578462">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587499578462" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1587499578462">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1587499578462" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1587499578462">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1587499578462" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1587499578462">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1587499578462" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587593242114">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587593242114" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1587592357091">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587592357091" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1587473379513">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1587473379513" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
